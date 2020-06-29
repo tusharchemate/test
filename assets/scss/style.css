@@ -1,0 +1,811 @@
+.top-left, .bottom-left {
+  position: absolute;
+}
+
+.top-left, .bottom-left {
+  color: rgba(0, 5, 0, 0.795);
+}
+
+.top-left, .bottom-left {
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Economica", sans-serif;
+}
+
+.navbar {
+  background-color: transparent !important;
+}
+
+.nav-link {
+  font-family: "Quicksand", sans-serif;
+  margin-left: 2.9rem;
+  margin-top: -10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #4f7942 !important;
+}
+
+.logo {
+  position: relative;
+  bottom: 13px;
+}
+
+.mynav {
+  background: url("../images/Circles.png"), url("../images/Base.png");
+  max-width: 100%;
+  height: 1030px;
+  background-position: right bottom, left bottom;
+  background-repeat: no-repeat, repeat;
+  opacity: 0.8;
+}
+
+.my {
+  background: url("../images/Circles.png"), url("../images/Base.png");
+  max-width: 100%;
+  height: 330px;
+  background-position: right bottom, left bottom;
+  background-repeat: no-repeat, repeat;
+  opacity: 0.8;
+}
+
+.text,
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+.text-color {
+  font-size: 14px;
+  color: #979797 !important;
+}
+
+.banner-text p,
+h3 {
+  font-weight: bold;
+}
+
+.banner-bottom {
+  color: #648604;
+}
+
+.banner-brand {
+  position: relative;
+  margin-top: 3rem;
+  margin-left: 7rem;
+  font-size: 16vh;
+}
+
+.btext-1 {
+  position: absolute;
+  top: 41%;
+  left: 8.5%;
+  font-size: 16vh;
+}
+
+.btext-2 {
+  position: absolute;
+  top: 58%;
+  left: 8.5%;
+  font-size: 16vh;
+}
+
+.btext-3 {
+  position: absolute;
+  top: 75.5%;
+  left: 8.5%;
+  font-size: 16vh;
+}
+
+.btext-4 {
+  position: absolute;
+  top: 118%;
+  left: 8.5%;
+  font-size: 8.5vh;
+  font-weight: normal;
+}
+
+.btext-5 {
+  position: absolute;
+  top: 126%;
+  left: 8.5%;
+  font-size: 8.5vh;
+  font-weight: normal;
+}
+
+.ic .fas {
+  font-size: 2rem;
+}
+
+.data-bar {
+  height: 480px;
+}
+
+.do {
+  margin-top: 2rem;
+  background: url("../images/Base.png");
+  height: 490px;
+}
+
+.do-circle {
+  font-weight: bold;
+  margin-top: 5rem;
+  margin-left: 4rem;
+}
+
+.do-circle1 {
+  font-weight: bold;
+  margin-top: 5rem;
+}
+
+.responsive {
+  margin-top: 3.4rem;
+}
+
+.top-left {
+  bottom: 50%;
+  left: 2%;
+}
+
+.bottom-left {
+  bottom: 15%;
+  left: 2%;
+  font-size: 4.5rem;
+}
+
+.os-brand {
+  font-size: 1.7rem;
+  color: #be3617;
+  font-weight: bold;
+  font-family: "economica";
+}
+
+.os-brand1 {
+  font-size: 2.8rem;
+  color: #be3011;
+  font-weight: bold;
+}
+
+.service-brand {
+  font-size: 2rem;
+  color: #be3617;
+  font-weight: bold;
+}
+
+.cover1 {
+  margin-top: 3.8rem;
+  background: url("../images/Base.png");
+}
+
+.top-margin {
+  margin-top: 3.8rem;
+}
+
+.services {
+  line-height: 2;
+  margin-top: 8.5rem;
+  font-weight: bold;
+}
+
+.our-services {
+  margin-top: 4.3rem;
+  margin-left: 4.3rem;
+}
+
+.creative {
+  margin-top: 1rem;
+  margin-left: 2.3rem;
+}
+
+.retina {
+  margin-top: 0.5rem;
+  margin-left: 14rem;
+}
+
+.contact {
+  margin-top: 8.2rem;
+}
+
+.media {
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  width: 40px;
+  height: 40px;
+  margin-left: 13px;
+}
+
+.media:hover {
+  background-color: #be3011;
+}
+
+.media-icon {
+  color: #fff;
+  font-size: 20px;
+  top: 10px;
+  left: 13px;
+  position: relative;
+}
+
+.brand {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 2.6rem;
+  color: #4f7942;
+}
+
+.brand-product {
+  margin-top: -93px;
+  font-weight: bold;
+  font-size: 2.6rem;
+  color: #4f7942;
+}
+
+.footer {
+  color: white;
+  margin-top: 4.2rem;
+}
+
+.space {
+  word-spacing: 1.5rem;
+}
+
+.foot {
+  margin-top: 5.2rem;
+}
+
+.section-responsive {
+  max-width: 100%;
+  height: 400px;
+  text-align: center;
+}
+
+.cover {
+  background: url("../images/Base.png");
+}
+
+.about {
+  background: url("../images/Base.png");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bottom {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 5.5rem;
+}
+
+.vl {
+  border-left: 10px solid #4f7942;
+  height: 150px;
+}
+
+.vl-1 {
+  border-left: 10px solid #fafafabe;
+  height: 80px;
+}
+
+.theme {
+  margin-top: 5.5rem;
+}
+
+.port {
+  font-family: "Quicksand";
+  font-size: 20px;
+  margin-top: 7.5rem;
+}
+
+.port li:hover {
+  color: #4f7942;
+}
+
+.team {
+  border-radius: 50%;
+  height: 334px;
+  width: 334px;
+  background-color: #be3011;
+}
+
+.team1 {
+  border-radius: 50%;
+  height: 334px;
+  width: 334px;
+  background-color: #a9a9a9;
+}
+
+.bg-secondary {
+  background-color: #000000 !important;
+}
+
+.our-team {
+  border-radius: 50%;
+  height: 271px;
+  width: 271px;
+  background-color: #968b89;
+  padding-top: 80px;
+}
+
+.our-team:hover {
+  background-image: radial-gradient(circle, #f4ba87, #f4a868, #f4954b, #f3812c, #f26a00);
+}
+
+.coming {
+  border-radius: 50%;
+  height: 271px;
+  width: 271px;
+  background-image: radial-gradient(circle, #f4ba87, #f4a868, #f4954b, #f3812c, #f26a00);
+  margin-top: 8rem;
+}
+
+.notify {
+  background-color: #3b8f3f;
+  border-radius: 15px 50px 50px 5px;
+  width: 9rem;
+  height: 50px;
+}
+
+.c-email {
+  font-size: 1.2rem;
+  border-radius: 50px 5px 5px 50px;
+}
+
+.text-email {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.download-btn {
+  -webkit-box-shadow: 1px 4px #b92709;
+          box-shadow: 1px 4px #b92709;
+  height: 55px;
+  width: 21%;
+  border-radius: 40px;
+  background-color: #ec5d3e;
+}
+
+.sicon:before {
+  top: 10px;
+  left: 0;
+  position: relative;
+}
+
+.sicon {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  background-color: #fff;
+}
+
+.sicon1 {
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  background-color: #a9a9a9;
+}
+
+.circle {
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+}
+
+.circle1 {
+  border-radius: 50%;
+  height: 92px;
+  width: 92px;
+}
+
+.mybtn {
+  font-size: 24px;
+  position: relative;
+  top: 20px;
+  width: 180px;
+  height: 50px;
+}
+
+.down {
+  background-color: #be3011;
+  border-radius: 50%;
+  font-size: 23px;
+  font-weight: bold;
+  position: relative;
+  left: 0;
+  bottom: 68px;
+  width: 45px;
+  height: 45px;
+}
+
+.icon:before {
+  margin-top: 28px;
+  left: 32px;
+  font-size: 3rem;
+  position: absolute;
+}
+
+.icon1:before {
+  left: 37px;
+}
+
+.icon {
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+  background-color: #be3011;
+  position: relative;
+}
+
+.list {
+  line-height: 30px;
+}
+
+.project1 {
+  border: 2px solid #a9a9a9;
+  border-radius: 50%;
+  background-color: #c0c0c0;
+  width: 334px;
+  height: 334px;
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.button {
+  background-color: #be3011;
+  border-radius: 50px;
+  width: 12rem;
+  height: 3.4rem;
+  font-size: 1.8rem;
+}
+
+.googleMap {
+  position: relative;
+  height: 0;
+  padding-bottom: 30%;
+}
+
+.googleMap iframe {
+  border: none;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.badge {
+  position: relative;
+  border-radius: 50%;
+  top: 34px;
+  right: 28px;
+  width: 70px;
+  height: 70px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b86f03), color-stop(51%, #e47f20), color-stop(51%), color-stop(51%, #020000));
+  background: linear-gradient(180deg, #b86f03, #e47f20 51%, 51%, #020000 51%);
+  z-index: 2;
+}
+
+.myfont {
+  font-family: "Quicksand", sans-serif;
+}
+
+.about-img {
+  margin-top: -6rem;
+}
+
+.texture {
+  color: #be3011;
+}
+
+.soon {
+  font-size: 9rem;
+  text-align: center;
+  margin-top: -70px;
+  color: #fff;
+}
+
+.bgimg {
+  background: url("../images/grp.png"), url("../images/Base.png");
+  max-width: 100%;
+  height: auto;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat, repeat;
+  opacity: 0.8;
+}
+
+.bg {
+  background: url("../images/base.png");
+  max-width: 100%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% 570px;
+  opacity: 0.8;
+}
+
+.footer-contact i {
+  padding-right: 8px;
+  font-size: 12px;
+  color: #666;
+}
+
+@media (min-width: 1200px) {
+  .img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .btext-1, .btext-2, .btext-3 {
+    font-size: 10vh !important;
+  }
+  .btext-4, .btext-5 {
+    font-size: 6vh !important;
+  }
+  .btext-1 {
+    top: 18%;
+  }
+  .btext-2 {
+    top: 29%;
+  }
+  .btext-3 {
+    top: 40%;
+  }
+  .btext-4 {
+    top: 57%;
+  }
+  .btext-5 {
+    top: 63%;
+  }
+  .ml-5, .mx-5 {
+    margin-left: 1.8rem !important;
+  }
+  .do {
+    height: 350px !important;
+  }
+  .circle-chart {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .creative {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .os-brand {
+    font-size: 1.2rem;
+  }
+  .os-brand1 {
+    font-size: 1.5rem;
+  }
+  .ml-3,
+  .mx-3 {
+    margin-left: 0.4rem !important;
+  }
+  .do-circle {
+    margin-left: 2rem;
+  }
+  .ud {
+    margin-left: -5rem;
+  }
+  .banner-brand {
+    top: 10%;
+    left: 8%;
+    font-size: 7vh;
+  }
+  .our-team {
+    height: 234px;
+    width: 234px;
+  }
+  .space {
+    word-spacing: 0.48rem;
+  }
+  .coming {
+    border-radius: 50%;
+    height: 233px;
+    width: 232px;
+  }
+  .team1,
+  .team,
+  .project1 {
+    height: 270px;
+    width: 270px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .section-responsive {
+    top: 40px;
+    max-width: 100%;
+    height: 60px;
+  }
+  .space {
+    word-spacing: -1rem;
+  }
+  .mynav {
+    height: 600px;
+  }
+  .btext-1 {
+    top: 23%;
+  }
+  .btext-2 {
+    top: 30%;
+  }
+  .btext-3 {
+    top: 37%;
+  }
+  .btext-4 {
+    top: 64%;
+  }
+  .btext-5 {
+    top: 70%;
+  }
+  .retina {
+    margin-left: 2rem;
+  }
+  .our-services {
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+  }
+  .do-circle,
+  .do-circle1 {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+  .circle-chart {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  .do {
+    height: 700px;
+  }
+  .us {
+    margin-top: 0rem;
+  }
+  .port {
+    margin-left: 5px !important;
+    font-size: 14px;
+  }
+  .banner-brand {
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 12vh;
+  }
+  .services {
+    margin-top: 1rem;
+  }
+  .contact {
+    margin-top: 1rem;
+  }
+  .ud {
+    margin-left: -4rem;
+  }
+  .media {
+    margin-bottom: 30px;
+  }
+  .foot {
+    margin-top: 0.2rem;
+  }
+  .icon {
+    height: 88px;
+    width: 88px;
+  }
+  .icon:before {
+    margin-top: 20px;
+    left: 22px;
+  }
+  .icon1:before {
+    left: 26px !important;
+  }
+  .circle-chart {
+    width: 80px !important;
+    height: 81px !important;
+  }
+  .desc {
+    margin-left: 32px;
+  }
+  .badge {
+    top: 22px;
+    right: 12px;
+    width: 40px;
+    height: 40px;
+  }
+  .badge-text {
+    margin-top: 4px !important;
+    font-size: 1.2vh !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .project1 {
+    height: 92px;
+    width: 92px;
+  }
+  .banner-text h3,
+  p {
+    font-size: 40px;
+  }
+  .theme {
+    font-size: 17px;
+    margin-top: 0.5rem;
+    margin-left: 25px;
+  }
+  .list-inline-item:not(:last-child) {
+    margin-top: initial;
+  }
+  .vl-1 {
+    border-left: thick solid #fafafabe;
+    height: 70px;
+  }
+  .about-img {
+    margin-top: 1rem;
+  }
+  .margin {
+    margin-top: 30px;
+  }
+  .team {
+    height: 100px;
+    width: 100px;
+  }
+  .team1 {
+    height: 100px;
+    width: 100px;
+  }
+  .my {
+    background-repeat: no-repeat;
+    height: 250px;
+  }
+  .our-team {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    padding-top: 20px;
+  }
+  .sicon:before {
+    top: 8px;
+    left: 0;
+    position: relative;
+  }
+  .sicon {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+  }
+  .download {
+    font-size: 10px;
+  }
+  .download-btn {
+    width: 100%;
+  }
+  .cat-item {
+    margin-left: 20px !important;
+  }
+  .coming {
+    height: 80px;
+    width: 80px;
+    margin-top: 6rem;
+  }
+  .soon {
+    font-size: 2rem;
+  }
+  .sm {
+    font-size: 1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
