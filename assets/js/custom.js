@@ -54,31 +54,36 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-
-$('#project-carousel').owlCarousel({
-    loop: true,
-    margin: 10,
-    nav: true,
-    loop: true,
-    autoplay: true,
-    autoplayTimeout: 1520,
-    smartSpeed: 1500,
-    animateIn: 'linear',
-    animateOut: 'linear',
-    responsive: {
-        0: {
-            items: 1
-        },
-        600: {
-            items: 1
-        },
-        1000: {
-            items: 1
+    $('.owl-carousel').owlCarousel({
+         loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:3
+            }
+    
         }
-    }
-})
+    })
 
 });
+
+var owl = $('.owl-carousel');
+owl.owlCarousel();
+
+$('.owl-next').click(function() {
+    owl.trigger('next.owl.carousel');
+})
+$('.owl-prev').click(function() {
+    
+    owl.trigger('prev.owl.carousel');
+})
 
 
 

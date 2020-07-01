@@ -4,12 +4,12 @@ function makesvg(percentage, inner_text=""){
   var percentage_str = percentage.toString();
   var classes = ""
 
-  if(percentage < 0){
+  if(percentage < 66){
     classes = "danger-stroke circle-chart__circle--negative";
-  } else if(percentage > 0 && percentage <= 30){
-    classes = "warning-stroke";
+  } else if(percentage > 66 && percentage <= 75){
+    classes = "warning-stroke circle-chart__circle--negative";
   } else{
-    classes = "success-stroke";
+    classes = "success-stroke circle-chart__circle--negative";
   }
 
  var svg = '<svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" xmlns="http://www.w3.org/2000/svg">'

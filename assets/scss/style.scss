@@ -11,6 +11,31 @@
 body {
   font-family: "Economica", sans-serif;
 }
+.arrows {
+  margin-top: 30px;
+  border: 2px solid #be3011;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  background-color: #be3011;
+  border-radius: 50%;
+  padding: 10px;
+}
+.text-block {
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  visibility: hidden;
+}
+.align{
+  margin-left: 2rem ;
+}
+.img img {
+  border-radius: 50%;
+}
 .navbar {
   background-color: transparent !important;
 }
@@ -52,14 +77,15 @@ a.nav-link {
 p {
   font-family: "Quicksand", sans-serif;
 }
+
 .text-color {
   font-weight: bold;
-  font-size: 14.5px;
+  font-size: 14px;
   color: #696262 !important;
 }
 .tx-color {
   font-size: 14px;
-  color: #c4c1c1 !important;
+  color: #b8b2b2 !important;
 }
 
 .banner-text p,
@@ -145,7 +171,7 @@ h3 {
 .os-brand {
   letter-spacing: 1px;
   font-size: 1.7rem;
-  color: #f34d0b;
+  color: #be3617;
   font-weight: bold;
   font-family: "economica";
 }
@@ -196,6 +222,7 @@ h3 {
 .media:hover {
   background-color: #be3011;
 }
+
 .media-icon {
   color: #fff;
   font-size: 20px;
@@ -259,7 +286,6 @@ h3 {
   border-left: 10px solid #fafafabe;
   height: 80px;
 }
-
 .theme {
   margin-top: 5.5rem;
 }
@@ -272,31 +298,81 @@ h3 {
   width: 334px;
   background-color: #be3617;
 }
-.team1 {
+.font-25 {
+  font-size: 22px;
+}
+.team1:hover .text-block {
+  visibility: visible;
+}
+.text-block {
+  position: absolute;
+  bottom: 100px;
+  right: 80px;
+  overflow: hidden;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.team1 img {
+  position: relative;
+  border-radius: 50%;
+}
+.team1:hover .text-block {
+  overflow: hidden;
+  top: 0;
+  padding-top: 120px;
+  left: 18px;
   border-radius: 50%;
   height: 334px;
   width: 334px;
-  background-color: #a9a9a9;
-  :hover {
-    background-color: #be3617;
-  }
+  visibility: visible;
+  background-color: #be3011;
 }
-.team1:hover {
-  background-color: #be3617;
+.img_desc {
+  position: absolute;
+  overflow: hidden;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  visibility: hidden;
 }
-
-.bg-secondary {
-  background-color: #000000 !important;
-}
-.our-team {
+.our-team:hover .img_desc {
+  top: 0;
+  padding-top: 80px;
+  left: 10;
   border-radius: 50%;
   height: 271px;
   width: 271px;
-  background-color: #968b89;
-  padding-top: 80px;
+  visibility: visible;
+  background-color: #be3011;
 }
-.our-team:hover {
-  background-color: #be3617;
+.our-team img {
+  border-radius: 50%;
+  position: relative;
+}
+.our-team:hover .img_desc {
+  background-color: #be3011;
+}
+.bg-secondary {
+  background-color: #000000 !important;
+}
+.font-12 {
+  font-size: 10px;
+}
+.fab:hover {
+  color: #be3011;
+}
+.fas:hover {
+  color: #be3011;
+}
+.font-30 {
+  font-size: 25px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.our-team:hover .img_desc {
+  visibility: visible;
 }
 .coming {
   border-radius: 50%;
@@ -354,6 +430,16 @@ h3 {
   width: 35px;
   background-color: #a9a9a9;
 }
+.social {
+  margin-left: 15px;
+  height: 40px;
+  width: 40px;
+  background-color: #c0c0c0;
+  color: rgb(241, 236, 236);
+  font-size: 20px;
+  top: 10px;
+  left: 13px;
+}
 .circle {
   border-radius: 50%;
   height: 72px;
@@ -402,20 +488,11 @@ h3 {
 .list {
   line-height: 30px;
 }
-.project1 {
-  border: 2px solid #a9a9a9;
-  border-radius: 50%;
-  background-color: #c0c0c0;
-  width: 334px;
-  height: 334px;
+.project {
+  text-align: center;
+  padding: 0px 18px;
 }
-.project2 {
-  border: 2px solid #f00b0b;
-  border-radius: 50%;
-  background-color: #bb0707;
-  width: 334px;
-  height: 334px;
-}
+
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -433,7 +510,7 @@ h3 {
   width: 12rem;
   height: 3.4rem;
   font-size: 1.8rem;
-  box-shadow: 1px 4px #130501;
+  box-shadow: 1px 4px #83210b;
 }
 .googleMap {
   position: relative;
@@ -463,8 +540,11 @@ h3 {
 .about-img {
   margin-top: -6rem;
 }
+.color {
+  color: #be3011;
+}
 .texture {
-  color: #f34d0b;
+  color: #be3011;
   font-family: "quicksand";
   font-size: 14px;
   font-weight: 700;
@@ -475,7 +555,6 @@ h3 {
   margin-top: -70px;
   color: #fff;
 }
-
 .bgimg {
   background: url("../images/grp.png"), url("../images/Base.png");
   max-width: 100%;
@@ -579,13 +658,13 @@ h3 {
     width: 232px;
   }
   .team1,
-  .team,
-  .project1,
-  .project2 {
+  .team {
     height: 270px;
     width: 270px;
   }
 }
+
+//600
 
 @media only screen and (max-width: 768px) {
   .section-responsive {
@@ -688,11 +767,6 @@ h3 {
   p {
     font-size: 16px !important;
   }
-  .project1,
-  .project2 {
-    height: 92px;
-    width: 92px;
-  }
   .banner-text h3,
   p {
     font-size: 40px;
@@ -719,6 +793,7 @@ h3 {
     height: 100px;
     width: 100px;
   }
+
   .team1 {
     height: 100px;
     width: 100px;
