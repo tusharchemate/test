@@ -492,7 +492,6 @@ h3 {
   text-align: center;
   padding: 0px 18px;
 }
-
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
@@ -664,9 +663,7 @@ h3 {
   }
 }
 
-//600
-
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .section-responsive {
     top: 40px;
     max-width: 100%;
@@ -696,10 +693,6 @@ h3 {
   .retina {
     margin-left: 2rem;
   }
-  .our-services {
-    margin-top: 2.3rem;
-    margin-left: 2rem;
-  }
   .do-circle,
   .do-circle1 {
     margin-top: 2rem;
@@ -708,9 +701,6 @@ h3 {
   .circle-chart {
     width: 120px !important;
     height: 120px !important;
-  }
-  .do {
-    height: 700px;
   }
   .us {
     margin-top: 0rem;
@@ -746,10 +736,6 @@ h3 {
   }
   .icon1:before {
     left: 26px !important;
-  }
-  .circle-chart {
-    width: 80px !important;
-    height: 81px !important;
   }
   .desc {
     margin-left: 32px;
@@ -838,5 +824,81 @@ h3 {
   }
   .sm {
     font-size: 1rem;
+  }
+
+  .navbar-collapse {
+    box-shadow: 5px 5px 20px;
+    z-index: 6;
+    background: #ebe6e6;
+    margin-left: 100px;
+    margin-right: 0;
+    padding: 0.5rem 3.5rem;
+    line-height: 65px;
+  }
+
+  .brand {
+    font-size: 2.5rem !important;
+  }
+  .ml-5,
+  .mx-5 {
+    margin-left: 3rem !important;
+  }
+  .ml-3,
+  .mx-3 {
+    margin-left: 1rem !important;
+  }
+  .ml-4,
+  .mx-4 {
+    margin-left: 1rem !important;
+  }
+  .circle-chart {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .retina {
+    margin-left: 0.5rem !important;
+  }
+  .our-services {
+    margin-left: 0.5rem;
+  }
+  .do {
+    height: 1080px;
+  }
+  .mt {
+    margin-top: -10px !important;
+  }
+  .ml {
+    margin-left: 25px !important;
+  }
+  .ml-40 {
+    margin-left: 40px !important;
+  }
+  .mt-10 {
+    margin-top: 30px;
+  }
+  .team1 {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+
+  .team1:hover .text-block {
+    padding-top: 20px;
+    left: 14px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+  }
+  a.nav-link {
+    margin-left: 50px !important;
+    color: #000;
+    padding-left: 50px;
+  }
+  .nav-tabs {
+    margin-top: -80px !important;
+  }
+  .project{
+    height: 132px;
+    width: 132px;
   }
 }
