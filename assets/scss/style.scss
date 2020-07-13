@@ -407,11 +407,13 @@ h3 {
   font-weight: bold;
 }
 .download-btn {
-  box-shadow: 1px 4px #b92709;
+  font-size: 27px;
+  font-family: "economica";
+  box-shadow: 1px 4px #6b1504;
   height: 55px;
   width: 21%;
   border-radius: 40px;
-  background-color: #ec5d3e;
+  background-color: #be3011;
 }
 .sicon:before {
   top: 10px;
@@ -575,10 +577,23 @@ h3 {
   font-size: 12px;
   color: #666;
 }
-@media (min-width: 1200px) {
-  .img {
-    width: 100%;
-  }
+
+@media only screen and (min-width: 1200px) {
+  // .btext-1 {
+  //   top: 21%;
+  // }
+  // .btext-2 {
+  //   top: 37%;
+  // }
+  // .btext-3 {
+  //   top: 54%;
+  // }
+  // .btext-4 {
+  //   top: 81%;
+  // }
+  // .btext-5 {
+  //   top: 90%;
+  // }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
@@ -601,11 +616,11 @@ h3 {
     @extend %font10;
   }
   .btext-4 {
-    top: 57%;
+    top: 58%;
     @extend %font7;
   }
   .btext-5 {
-    top: 63%;
+    top: 64%;
     @extend %font7;
   }
   .ml-5,
@@ -621,7 +636,7 @@ h3 {
   }
   .creative {
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 0rem;
   }
   .os-brand {
     font-size: 1.2rem;
@@ -631,17 +646,18 @@ h3 {
   }
   .ml-3,
   .mx-3 {
-    margin-left: 0.4rem !important;
+    margin-left: 0rem !important;
   }
   .do-circle {
     margin-left: 2rem;
   }
   .ud {
-    margin-left: -5rem;
+    margin-top: 10rem;
+    margin-left: -10rem;
   }
   .banner-brand {
     top: 10%;
-    left: 8%;
+    left: -5%;
     font-size: 7vh;
   }
   .our-team {
@@ -658,8 +674,150 @@ h3 {
   }
   .team1,
   .team {
-    height: 270px;
-    width: 270px;
+    height: 216px;
+    width: 216px;
+  }
+  .team1:hover .text-block {
+    padding-top: 62px;
+    left: 14px;
+    height: 216px;
+    width: 216px;
+  }
+  .project:hover .text-block {
+    padding-top: 12px;
+    left: 19px;
+    height: 180px;
+    width: 180px;
+  }
+  .our-services {
+    margin-top: 4.3rem;
+    margin-left: 1.5rem;
+  }
+  .retina {
+    margin-top: 0.5rem;
+    margin-left: 9.9rem;
+  }
+  .cr {
+    margin-left: 60px;
+  }
+
+  .our-team:hover .img_desc {
+    top: 0;
+    padding-top: 30px;
+    left: 47px;
+    border-radius: 50%;
+    height: 166px;
+    width: 166px;
+  }
+  .our-team img {
+    overflow: hidden;
+    height: 166px;
+    width: 166px;
+  }
+  .download-btn {
+    width: 27%;
+  }
+   .res {
+     margin-left: -23rem;
+   }
+  .cr{
+    display: none;
+  }
+  .mar{
+    margin-left: 10rem;
+  }
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-brand {
+    top: 10%;
+    left: -8%;
+    font-size: 8vh;
+  }
+  .os-brand {
+    font-size: 0.9rem;
+  }
+  .our-services {
+    margin-top: 4.3rem;
+    margin-left: 0rem;
+  }
+  .pl-5,
+  .px-5 {
+    padding-left: 2rem !important;
+  }
+  .retina {
+    margin-top: 0.5rem;
+    margin-left: 8.3rem;
+  }
+  .circle-chart {
+    width: 155px !important;
+    height: 155px !important;
+  }
+  .do-circle {
+    margin-left: -0.8rem !important;
+  }
+  .btext-4 {
+    top: 65%;
+  }
+  .btext-5 {
+    top: 72%;
+  }
+  .new {
+    margin-left: -0.4rem !important;
+  }
+  .space {
+    word-spacing: 8rem;
+  }
+  .navbar-collapse {
+    box-shadow: 5px 5px 20px red;
+    background: #ebe6e6;
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 5rem 15.5rem;
+    line-height: 84px;
+    z-index: 99999;
+  }
+  .h1,
+  h1 {
+    font-size: 1.7rem;
+  }
+  .team1 {
+    height: 160px;
+    width: 160px;
+  }
+  .team1:hover .text-block {
+    padding-top: 12px;
+    left: 14px;
+    height: 160px;
+    width: 160px;
+  }
+  .project:hover .text-block {
+    padding-top: 12px;
+    left: 14px;
+    height: 140px;
+    width: 140px;
+  }
+  a.nav-link {
+    margin-left: 50px !important;
+    color: #000;
+    padding-left: 32px;
+  }
+  .our-team:hover .img_desc {
+    top: 0;
+    padding-top: 30px;
+    left: 48px;
+    border-radius: 50%;
+    height: 166px;
+    width: 166px;
+  }
+  .our-team img {
+    overflow: hidden;
+    height: 166px;
+    width: 166px;
+  }
+  .download-btn {
+    width: 35%;
   }
 }
 
@@ -696,7 +854,7 @@ h3 {
   .do-circle,
   .do-circle1 {
     margin-top: 2rem;
-    margin-left: 0;
+    margin-left: 0 !important;
   }
   .circle-chart {
     width: 120px !important;
@@ -705,11 +863,10 @@ h3 {
   .us {
     margin-top: 0rem;
   }
-
   .banner-brand {
     margin-top: 1rem;
-    margin-left: 2rem;
-    font-size: 12vh;
+    margin-left: 3rem;
+    font-size: 11vh;
   }
   .services {
     margin-top: 1rem;
@@ -738,7 +895,7 @@ h3 {
     left: 26px !important;
   }
   .desc {
-    margin-left: 32px;
+    margin-left: 42px;
   }
   .badge {
     top: 22px;
@@ -747,8 +904,8 @@ h3 {
     height: 40px;
   }
   .badge-text {
-    margin-top: 4px !important;
-    font-size: 1.2vh !important;
+    margin-top: 1.5px !important;
+    font-size: 1.1vh !important;
   }
   p {
     font-size: 16px !important;
@@ -779,7 +936,6 @@ h3 {
     height: 100px;
     width: 100px;
   }
-
   .team1 {
     height: 100px;
     width: 100px;
@@ -795,9 +951,10 @@ h3 {
     padding-top: 20px;
   }
   .sicon:before {
-    top: 8px;
+    top: 4px;
     left: 0;
     position: relative;
+    font-size: 16px;
   }
   .sicon {
     border-radius: 50%;
@@ -807,9 +964,6 @@ h3 {
   }
   .download {
     font-size: 10px;
-  }
-  .download-btn {
-    width: 50%;
   }
   .cat-item {
     margin-left: 20px !important;
@@ -825,17 +979,15 @@ h3 {
   .sm {
     font-size: 1rem;
   }
-
   .navbar-collapse {
     box-shadow: 5px 5px 20px;
-    z-index: 6;
     background: #ebe6e6;
     margin-left: 100px;
     margin-right: 0;
     padding: 0.5rem 3.5rem;
     line-height: 65px;
+    z-index: 99999;
   }
-
   .brand {
     font-size: 2.5rem !important;
   }
@@ -881,7 +1033,6 @@ h3 {
     height: 100px;
     width: 100px;
   }
-
   .team1:hover .text-block {
     padding-top: 20px;
     left: 14px;
@@ -897,8 +1048,46 @@ h3 {
   .nav-tabs {
     margin-top: -80px !important;
   }
-  .project{
+  .project {
     height: 132px;
     width: 132px;
+  }
+  .bg {
+    background: none;
+  }
+  .our-team img {
+    margin-top: -20px;
+    height: 151px;
+    width: 151px;
+  }
+  .our-team:hover .img_desc {
+    top: 0;
+    padding-top: 8px;
+    left: 1px;
+    border-radius: 50%;
+    height: 151px;
+    width: 151px;
+    visibility: visible;
+    background-color: #be3011;
+  }
+  .download-btn {
+    width: 80%;
+    margin-left: -3px !important;
+  }
+  .font-20 {
+    font-size: 14px;
+  }
+  .input1 {
+    margin-left: -25px;
+  }
+  .send {
+    margin-left: -50px;
+  }
+  .name {
+    margin-top: 15px;
+    margin-left: -20px;
+  }
+  .navbar-collapse .nav > li {
+    z-index: 10000;
   }
 }
