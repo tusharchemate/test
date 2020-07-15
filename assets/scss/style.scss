@@ -577,6 +577,9 @@ h3 {
   font-size: 12px;
   color: #666;
 }
+.text-center{
+  text-align: center;
+}
 
 @media only screen and (min-width: 1200px) {
   // .btext-1 {
@@ -625,17 +628,17 @@ h3 {
   }
   .ml-5,
   .mx-5 {
-    margin-left: 1.8rem !important;
+    margin-left: 1.1rem !important;
   }
   .do {
-    height: 350px !important;
+    height: 550px !important;
   }
   .circle-chart {
-    width: 120px !important;
-    height: 120px !important;
+    width: 220px !important;
+    height: 220px !important;
   }
   .creative {
-    margin-top: 1rem;
+    margin-top: 9rem;
     margin-left: 0rem;
   }
   .os-brand {
@@ -644,16 +647,16 @@ h3 {
   .os-brand1 {
     font-size: 1.5rem;
   }
+  .mul {
+    margin-left: 20px !important;
+    padding-left: 36px !important;
+}
   .ml-3,
   .mx-3 {
     margin-left: 0rem !important;
   }
   .do-circle {
     margin-left: 2rem;
-  }
-  .ud {
-    margin-top: 10rem;
-    margin-left: -10rem;
   }
   .banner-brand {
     top: 10%;
@@ -672,33 +675,30 @@ h3 {
     height: 233px;
     width: 232px;
   }
-  .team1,
-  .team {
-    height: 216px;
-    width: 216px;
-  }
-  .team1:hover .text-block {
-    padding-top: 62px;
-    left: 14px;
-    height: 216px;
-    width: 216px;
-  }
-  .project:hover .text-block {
-    padding-top: 12px;
-    left: 19px;
-    height: 180px;
-    width: 180px;
-  }
+  // .team1,
+  // .team {
+  //   height: 216px;
+  //   width: 216px;
+  // }
+  // .team1:hover .text-block {
+  //   padding-top: 62px;
+  //   left: 14px;
+  //   height: 216px;
+  //   width: 216px;
+  // }
+  // .project:hover .text-block {
+  //   padding-top: 12px;
+  //   left: 19px;
+  //   height: 180px;
+  //   width: 180px;
+  // }
   .our-services {
-    margin-top: 4.3rem;
+    margin-top: 12.3rem;
     margin-left: 1.5rem;
   }
   .retina {
     margin-top: 0.5rem;
     margin-left: 9.9rem;
-  }
-  .cr {
-    margin-left: 60px;
   }
 
   .our-team:hover .img_desc {
@@ -717,45 +717,71 @@ h3 {
   .download-btn {
     width: 27%;
   }
-   .res {
-     margin-left: -23rem;
-   }
-  .cr{
-    display: none;
+  .ml-4,
+  .mx-4 {
+    margin-left: -3.5rem !important;
   }
-  .mar{
-    margin-left: 10rem;
+  .icon:before {
+    margin-top: 21px;
+    left: 21px;
   }
-  
+  .icon1:before {
+    left: 30px;
+  }
+  .icon {
+    height: 90px;
+    width: 90px;
+  }
+  .res {
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
   .banner-brand {
+    position: absolute;
     top: 10%;
     left: -8%;
     font-size: 8vh;
   }
   .os-brand {
-    font-size: 0.9rem;
+    font-size: 1.466rem;
   }
   .our-services {
-    margin-top: 4.3rem;
-    margin-left: 0rem;
+    margin-top: 12.3rem;
+    margin-left: -10rem;
   }
   .pl-5,
   .px-5 {
-    padding-left: 2rem !important;
+    padding-left: 1.7rem !important;
   }
   .retina {
     margin-top: 0.5rem;
-    margin-left: 8.3rem;
+    margin-left: -1.3rem;
   }
   .circle-chart {
-    width: 155px !important;
-    height: 155px !important;
+    width: 221px !important;
+    height: 221px !important;
   }
   .do-circle {
-    margin-left: -0.8rem !important;
+    margin-top: 14rem;
+    margin-left: -10.8rem !important;
+  }
+  .do-circle1{
+    margin-top: 14rem;
+  }
+  .new{
+    margin-top: 12rem;
+  }
+  .cat{
+    margin-left: -11.299rem;
+  }
+  .mt-10{
+    margin-top: 8rem;
+  }
+  .ml{
+    margin-left: -10rem !important;
+    margin-top: 12rem;
   }
   .btext-4 {
     top: 65%;
@@ -767,37 +793,35 @@ h3 {
     margin-left: -0.4rem !important;
   }
   .space {
-    word-spacing: 8rem;
+    word-spacing: 3rem;
+  }
+  .ab {
+    margin-left: 10px;
+  }
+  .con {
+    margin-left: 20px;
   }
   .navbar-collapse {
     box-shadow: 5px 5px 20px red;
-    background: #ebe6e6;
-    margin-left: 10px;
-    margin-right: 0;
+    background: #4d4a4a;
     padding: 5rem 15.5rem;
-    line-height: 84px;
-    z-index: 99999;
+    z-index: 1;
+    line-height: 69px;
   }
   .h1,
   h1 {
     font-size: 1.7rem;
   }
-  .team1 {
-    height: 160px;
-    width: 160px;
-  }
   .team1:hover .text-block {
-    padding-top: 12px;
-    left: 14px;
-    height: 160px;
-    width: 160px;
+    padding-top: 90px;
+    left: 5.5rem;
   }
-  .project:hover .text-block {
-    padding-top: 12px;
-    left: 14px;
-    height: 140px;
-    width: 140px;
-  }
+  // .project:hover .text-block {
+  //   padding-top: 12px;
+  //   left: 14px;
+  //   height: 140px;
+  //   width: 140px;
+  // }
   a.nav-link {
     margin-left: 50px !important;
     color: #000;
@@ -819,6 +843,9 @@ h3 {
   .download-btn {
     width: 35%;
   }
+  .col-12 {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -829,6 +856,7 @@ h3 {
   }
   .space {
     word-spacing: -1rem;
+    margin-top: -27px;
   }
   .mynav {
     height: 600px;
@@ -851,6 +879,13 @@ h3 {
   .retina {
     margin-left: 2rem;
   }
+  .cat{
+    margin-left: 0;
+  }
+  .ml , .new {
+    margin-top: 1rem;
+  }
+
   .do-circle,
   .do-circle1 {
     margin-top: 2rem;
@@ -864,8 +899,9 @@ h3 {
     margin-top: 0rem;
   }
   .banner-brand {
-    margin-top: 1rem;
-    margin-left: 3rem;
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 4rem;
     font-size: 11vh;
   }
   .services {
@@ -932,14 +968,6 @@ h3 {
   .margin {
     margin-top: 30px;
   }
-  .team {
-    height: 100px;
-    width: 100px;
-  }
-  .team1 {
-    height: 100px;
-    width: 100px;
-  }
   .my {
     background-repeat: no-repeat;
     height: 250px;
@@ -981,11 +1009,9 @@ h3 {
   }
   .navbar-collapse {
     box-shadow: 5px 5px 20px;
-    background: #ebe6e6;
-    margin-left: 100px;
-    margin-right: 0;
-    padding: 0.5rem 3.5rem;
-    line-height: 65px;
+    background: #4e4242;
+    padding: 1rem 4rem;
+    line-height: 50px;
     z-index: 99999;
   }
   .brand {
@@ -993,7 +1019,7 @@ h3 {
   }
   .ml-5,
   .mx-5 {
-    margin-left: 3rem !important;
+    margin-left: 3.6rem !important;
   }
   .ml-3,
   .mx-3 {
@@ -1001,20 +1027,24 @@ h3 {
   }
   .ml-4,
   .mx-4 {
-    margin-left: 1rem !important;
+    margin-left: -1rem !important;
   }
   .circle-chart {
     width: 200px !important;
     height: 200px !important;
   }
   .retina {
-    margin-left: 0.5rem !important;
+    margin-left: -1.5rem !important;
   }
   .our-services {
-    margin-left: 0.5rem;
+    margin-top: 1.3rem;
+    margin-left: -1.5rem;
+  }
+  .creative {
+    margin-left: -0.9rem;
   }
   .do {
-    height: 1080px;
+    height: 1110px;
   }
   .mt {
     margin-top: -10px !important;
@@ -1028,30 +1058,25 @@ h3 {
   .mt-10 {
     margin-top: 30px;
   }
-  .team1 {
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-  }
-  .team1:hover .text-block {
-    padding-top: 20px;
-    left: 14px;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-  }
   a.nav-link {
-    margin-left: 50px !important;
+    margin-left: 66px !important;
     color: #000;
     padding-left: 50px;
   }
   .nav-tabs {
     margin-top: -80px !important;
   }
-  .project {
-    height: 132px;
-    width: 132px;
+  .owl-item .active{
+    width:334px;
   }
+  .team1:hover .text-block {
+    padding-top: 90px;
+    left: 2px;
+  }
+  // .project {
+  //   height: 132px;
+  //   width: 132px;
+  // }
   .bg {
     background: none;
   }
@@ -1088,6 +1113,22 @@ h3 {
     margin-left: -20px;
   }
   .navbar-collapse .nav > li {
-    z-index: 10000;
+    z-index: 99999;
   }
+  .tx-color {
+    margin-bottom: 5px;
+  }
+  .font-weight-bold {
+    margin-top: 11px;
+  }
+  .text-left {
+    padding-right: 55px;
+  }
+  .project {
+    height: 334px;
+    width: 334px;
+}
+.element.style {
+  width: 334px;
+}
 }
