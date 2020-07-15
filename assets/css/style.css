@@ -163,6 +163,9 @@ h3 {
   left: 2%;
   font-size: 4.5rem; }
 
+.res {
+  margin-left: 22px; }
+
 .os-brand {
   letter-spacing: 1px;
   font-size: 1.7rem;
@@ -600,7 +603,7 @@ h3 {
     height: 220px !important; }
 
   .creative {
-    margin-top: 9rem;
+    margin-top: 4rem;
     margin-left: 0rem; }
 
   .os-brand {
@@ -638,7 +641,7 @@ h3 {
     width: 232px; }
 
   .our-services {
-    margin-top: 12.3rem;
+    margin-top: 7.3rem;
     margin-left: 1.5rem; }
 
   .retina {
@@ -677,7 +680,17 @@ h3 {
     width: 90px; }
 
   .res {
-    padding-left: 20px; } }
+    padding-left: 20px; }
+
+  .bottom {
+    margin-top: 7px !important; }
+
+  .mb {
+    margin-bottom: -15px !important; }
+
+  .pl-5,
+  .px-5 {
+    padding-left: 2rem !important; } }
 @media only screen and (max-width: 768px) {
   .banner-brand {
     position: absolute;
@@ -692,12 +705,16 @@ h3 {
     margin-top: 12.3rem;
     margin-left: -10rem; }
 
+  .res {
+    margin-left: 0;
+    margin-top: 20px; }
+
   .pl-5,
   .px-5 {
     padding-left: 1.7rem !important; }
 
   .retina {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-left: -1.3rem; }
 
   .circle-chart {
@@ -708,11 +725,22 @@ h3 {
     margin-top: 14rem;
     margin-left: -10.8rem !important; }
 
+  .creative {
+    margin-top: 9rem;
+    margin-left: 0rem; }
+
+  .our-services {
+    margin-top: 12.3rem;
+    margin-left: -10rem; }
+
+  .mb {
+    margin-bottom: -15px !important; }
+
   .do-circle1 {
     margin-top: 14rem; }
 
   .new {
-    margin-top: 12rem; }
+    margin-top: 5rem; }
 
   .cat {
     margin-left: -11.299rem; }
@@ -720,9 +748,12 @@ h3 {
   .mt-10 {
     margin-top: 8rem; }
 
+  .bottom {
+    margin-top: 7px !important; }
+
   .ml {
     margin-left: -10rem !important;
-    margin-top: 12rem; }
+    margin-top: 5rem; }
 
   .btext-4 {
     top: 65%; }
@@ -734,7 +765,7 @@ h3 {
     margin-left: -0.4rem !important; }
 
   .space {
-    word-spacing: 3rem; }
+    word-spacing: 0rem; }
 
   .ab {
     margin-left: 10px; }
@@ -745,7 +776,7 @@ h3 {
   .navbar-collapse {
     box-shadow: 5px 5px 20px red;
     background: #4d4a4a;
-    padding: 5rem 15.5rem;
+    padding: 3rem 15.5rem;
     z-index: 1;
     line-height: 69px; }
 
@@ -779,7 +810,13 @@ h3 {
     width: 35%; }
 
   .col-12 {
-    text-align: center; } }
+    text-align: center; }
+
+  .purpose {
+    padding-left: 48px !important; }
+
+  .mt-3r {
+    margin-top: 8rem !important; } }
 @media only screen and (max-width: 600px) {
   .section-responsive {
     top: 40px;
@@ -805,6 +842,9 @@ h3 {
   .btext-4 {
     top: 64%; }
 
+  .res {
+    margin-left: -15px; }
+
   .btext-5 {
     top: 70%; }
 
@@ -814,7 +854,8 @@ h3 {
   .cat {
     margin-left: 0; }
 
-  .ml, .new {
+  .ml,
+  .new {
     margin-top: 1rem; }
 
   .do-circle,
@@ -950,7 +991,11 @@ h3 {
 
   .ml-5,
   .mx-5 {
-    margin-left: 3.6rem !important; }
+    margin-left: 3.1rem !important; }
+
+  .pl-5,
+  .px-5 {
+    padding-left: 2.89rem !important; }
 
   .ml-3,
   .mx-3 {
@@ -972,7 +1017,14 @@ h3 {
     margin-left: -1.5rem; }
 
   .creative {
+    margin-top: 1.5rem;
     margin-left: -0.9rem; }
+
+  .mt-10 {
+    margin-top: 10px; }
+
+  .mt-3r {
+    margin-top: 3rem !important; }
 
   .do {
     height: 1110px; }
@@ -986,11 +1038,8 @@ h3 {
   .ml-40 {
     margin-left: 40px !important; }
 
-  .mt-10 {
-    margin-top: 30px; }
-
   a.nav-link {
-    margin-left: 66px !important;
+    margin-left: 82px !important;
     color: #000;
     padding-left: 50px; }
 
